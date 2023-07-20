@@ -8,7 +8,7 @@
 
 .header{
   background-color: #000000;
-  padding: 40px;
+  padding: 20px;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -16,8 +16,8 @@
 }
 
 .header img{
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   margin-left: 5px;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .centered-div h1{
-  font-size: clamp(5px, 8vw, 100px);
+  font-size: clamp(5px, 8vw, 50px);
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: 'Bebas Neue', sans-serif;
@@ -37,18 +37,16 @@
   margin-top: 0px;
   margin-bottom: 0px;
   width: 100%;
-  height: 50vh;
+  height: auto;
   background-image: url("Content/images/webpage.png");
   background-size: cover;
   background-position: center;
 
-
-  /* Additional styling properties for the section */
 }
 
 .welcome-text h2 {
   color: #f4e8e8;
-  font-size: clamp(5px, 8vw, 70px);
+  font-size: clamp(5px, 8vw, 35px);
   margin-top: 5%;
   margin-left: 200px;
   text-align: left;
@@ -59,7 +57,7 @@
 
 .welcome-text h3 {
   color: #f4e8e8;
-  font-size: clamp(50px, 8vw, 100px);
+  font-size: clamp(50px, 8vw, 60px);
   
   margin-left: 200px;
   text-align: left;
@@ -70,7 +68,7 @@
 
 .welcome-text p {
   color: #ffffff;
-  font-size: clamp(5px, 8vw, 30px);
+  font-size: clamp(5px, 8vw, 20px);
   margin-left: 200px;
   text-align: left;
   font-family: 'Montserrat', sans-serif;
@@ -84,14 +82,14 @@
 
 .white-section {
   background-color: rgb(255, 255, 255);
-  padding: 50px;
+  padding: 40px;
   margin: 0;
 }
 
 .black-box {
   background-color: black;
   color: white;
-  padding: 20px;
+  padding: 13px;
   margin: auto;
   width: auto;
   
@@ -99,7 +97,7 @@
 
 .black-box h4 {
   margin: 0;
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
@@ -107,11 +105,11 @@
 /*------------------------------ Our Video Section ----------------------------------*/
 .video-container {
   display: flex;
-  padding: 200px;
+  padding: 40px;
   justify-content: center;
   align-items: center;
   height: 400px; /* Adjust the height as needed */
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 video {
@@ -124,13 +122,14 @@ video {
 .third-section{
   background-image: url("Content/images/Black Background.webp");
   
-  height: 1800px;
+  height: auto;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-color: rgb(255, 255, 255);
   color: white;
   padding-top: 10px;
+  padding-bottom: 10px;
   display: box;
   flex-wrap: wrap;
   flex: 1 1 100%;
@@ -150,7 +149,7 @@ video {
   padding-bottom: 10px;
   margin-top: 50px;
   width: auto;
-  height: 100px;
+  height: 50px;
   
 }
 
@@ -158,7 +157,7 @@ video {
   margin: 0;
   color: black;
   margin: auto;
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
@@ -169,6 +168,7 @@ video {
   background-color: rgb(255, 255, 255);
   color: white;
   background-image: url("Content/images/analysis.png");
+  background-size: 90px;
   background-repeat: no-repeat;
   background-position: 20px 23px;
   padding: 20px;
@@ -176,18 +176,18 @@ video {
   margin-right: 3%;
   margin-left: 10%;
   margin-bottom: 100px;
-  width: 800px;
-  height: 140px;
+  width: 500px;
+  height: 100px;
   justify-content: space-around;
 
 }  
 
 .white-bar-2 h7 {
-  margin-top: 40px;
+  margin-top: 35px;
   margin-bottom: 40px;
   color: black;
   padding: 0;
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -201,6 +201,7 @@ video {
   background-color: rgb(255, 255, 255);
   color: white;
   background-image: url("Content/images/script_5068533.png");
+  background-size: 90px;
   background-repeat: no-repeat;
   background-position: 20px 23px;
   padding: 20px;
@@ -208,19 +209,19 @@ video {
   margin-right: 3%;
   margin-left: 23%;
   margin-bottom: 100px;
-  width: 800px;
-  height: 140px;
+  width: 500px;
+  height: 100px;
   justify-content: space-around;
 
 
 }  
 
 .white-bar-3 h8 {
-  margin-top: 40px;
+  margin-top: 35px;
   margin-bottom: 40px;
   color: black;
   padding: 0;
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -235,6 +236,7 @@ video {
   background-color: rgb(255, 255, 255);
   color: white;
   background-image: url("Content/images/man_9962045.png");
+  background-size: 90px;
   background-repeat: no-repeat;
   background-position: 20px 23px;
   padding: 20px;
@@ -242,19 +244,19 @@ video {
   margin-right: 3%;
   margin-left: 40%;
   margin-bottom: 100px;
-  width: 800px;
-  height: 140px;
+  width: 500px;
+  height: 100px;
   justify-content: space-around;
 
 
 }  
 
 .white-bar-4 h9 {
-  margin-top: 40px;
+  margin-top: 35px;
   margin-bottom: 40px;
   color: black;
   padding: 0;
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -268,6 +270,7 @@ video {
   background-color: rgb(255, 255, 255);
   color: white;
   background-image: url(Content/images/publish.png);
+  background-size: 90px;
   background-repeat: no-repeat;
   background-position: 20px 23px;
   padding: 20px;
@@ -275,19 +278,19 @@ video {
   margin-right: 3%;
   margin-left: 50%;
   margin-bottom: 100px;
-  width: 800px;
-  height: 140px;
+  width: 500px;
+  height: 100px;
   justify-content: space-around;
 
 
 }  
 
 .white-bar-5 h10 {
-  margin-top: 40px;
+  margin-top: 35px;
   margin-bottom: 40px;
   color: black;
   padding: 0;
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -301,6 +304,7 @@ video {
   background-color: rgb(255, 255, 255);
   color: white;
   background-image: url(Content/images/post-analysis.png);
+  background-size: 90px;
   background-repeat: no-repeat;
   background-position: 20px 23px;
   padding: 20px;
@@ -308,19 +312,19 @@ video {
   margin-right: 3%;
   margin-left: 65%;
   margin-bottom: 100px;
-  width: 800px;
-  height: 140px;
+  width: 500px;
+  height: 100px;
   justify-content: space-around;
 
 
 }  
 
 .white-bar-6 h11 {
-  margin-top: 40px;
+  margin-top: 35px;
   margin-bottom: 40px;
   color: black;
   padding: 0;
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -382,7 +386,7 @@ background-color: #000000;
 
 .form h12 {
   color: #fff;
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 30px;
 
@@ -395,12 +399,12 @@ background-color: #000000;
 .form input, form textarea{
   margin: auto;
   width: 100%;
-  padding: 2rem;
+  padding: 1rem;
   border: .08rem solid var(--primary);
   border-radius: 2rem;
   background-color: unset;
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.3rem;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -421,7 +425,7 @@ background-color: #000000;
   color: #fff;
   border-radius: 2rem;
   border: none;
-  font-size: 2rem;
+  font-size: 1.3rem;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -444,262 +448,6 @@ background-color: #000000;
 
 
 /*------------------------------------------------------- media  -----------------------------------------------------------*/
-/* media 1440 */
-
-
-
-
-@media screen and (max-width:1500px){
-
-  /*------------------- head line ----------------------------- */
-
-  .header{
-    background-color: #000000;
-    padding: 3px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-
-  }
-  
-  .header img{
-      width: 100px;
-      height: 100px;
-      margin-left: 3px;
-  }
-  
-  .centered-div{
-      color: #ffffff;
-  }
-  
-  .centered-div h1{
-      font-size: clamp(5px, 5vw, 60px);
-      margin-top: 5px;
-      margin-bottom: 5px;
-      font-family: 'Bebas Neue', sans-serif;
-  }
-
-/*------------------------------ Welcome Section ----------------------------------*/
-.background{
-
-
-  height: auto;
-  /* Additional styling properties for the section */
-}
-
-.welcome-text h2 {
-
-  font-size: clamp(5px, 8vw, 25px);
-  margin-left: 30px;
-
-}
-
-.welcome-text h3 {
-
-  font-size: clamp(5px, 8vw, 50px);
-  margin-left: 30px;
-
-}
-
-.welcome-text p {
-  font-size: clamp(5px, 8vw, 20px);
-  margin-left: 30px;
-
-}
-
-/*------------------------------ who we are Section ----------------------------------*/
-
-.white-section {
-  padding: 20px;
-
-}
-
-.black-box {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-left: 100px;
-  margin-right: 100px;
-  
-}
-
-.black-box h4 {
-  font-size: 20px;
-}
-
-/*------------------------------ Our Video Section ----------------------------------*/
-.video-container {
-  display: flex;
-
-  width: auto;
-  padding: 0px;
-  margin-bottom: 25px;
-  height: auto;
-}
-.video-container iframe {
-
-  margin: 0px;
-  width: 800px;
-  height: 400px;
-}
-video {
-  padding: 0px;
-}
-
-
-.white-bar {
-  background-color: rgb(255, 255, 255);
-  color: white;
-  padding-top: 10px;
-  padding-bottom: 13px;
-  margin-top: 10px;
-  width: auto;
-  height: 25px;
-  
-}
-
-.white-bar h6 {
-  margin: 0;
-  color: black;
-
-  font-size: 20px;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-}
-
-/*------------------------- process ----------------------------------------*/
-
-.third-section{
-
-  height: auto;
-  padding-bottom: 10px;
-  padding-top: 10px;
-
-}
-
-.white-bar-2 {
-  background-size: 70px;
-  padding: 10px;
-  margin-top: 70px;
-  margin-right: 3%;
-  margin-left: 10%;
-  margin-bottom: 70px;
-  width: 450px;
-  height: 100px;
-
-}  
-
-.white-bar-2 h7 {
-  margin-top: 35px;
-  font-size: 25px;
-}
-
-.white-bar-3 {
-  background-size: 70px;
-  padding: 10px;
-  margin-top: 70px;
-  margin-bottom: 70px;
-  width:  450px;
-  height: 100px;
-}  
-
-.white-bar-3 h8 {
-  margin-top: 35px;
-  font-size: 25px;
-}
-
-
-.white-bar-4 {
-  background-size: 70px;
-  padding: 10px;
-  margin-top: 70px;
-  margin-bottom: 70px;
-  width:  450px;
-  height: 100px;
-}
-
-.white-bar-4 h9 {
-  margin-top: 35px;
-  font-size: 25px;
-}
-
-.white-bar-5 {
-  background-size: 70px;
-  padding: 10px;
-  margin-top: 70px;
-  margin-bottom: 70px;
-  width:  450px;
-  height: 100px;
-}
-
-.white-bar-5 h10 {
-  margin-top: 35px;
-  font-size: 25px;
-}
-
-.white-bar-6 {
-  background-size: 70px;
-  padding: 10px;
-  margin-top: 70px;
-  margin-bottom: 70px;
-  width:  450px;
-  height: 100px;
-}
-
-.white-bar-6 h11 {
-  margin-top: 35px;
-  font-size: 25px;
-}
-
-
- /* body 1440 */
-.body-2{
-  height: auto;
-}
-
-.contact {
-  padding: 2rem;
-}
-
-.form h12 {
-  font-size: 1.8rem;
-}
-.form {
-  width: 50%;
-  height: 40%;
-
-}
-
-
-.form input, form textarea{
-  margin: 15px;
-  padding: 1rem;
-  font-size: 1.2rem;
-}
-
-.form button{
-  font-size: 1rem;
-}
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
  /* media 1300 */
 @media screen and (max-width:1300px){
